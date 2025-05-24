@@ -1,0 +1,85 @@
+/*Colors and tipografia Variables*/
+
+:root{
+   --primary-color: #242f40;
+  --secondary-color: #cca43b;
+  --accent1-color: #e5e5e5;
+  --accent2-color: #ffffff;
+  --heading-font: 'Bebas Neue', sans-serif;
+  --text-font: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--text-font);
+
+}
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.hero{
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(36,47,64,0.7);
+    color: var(--accent2-color);
+    padding: 10px;
+}
+
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia img {
+  width: 30px;
+  margin: 0 5px;
+}
