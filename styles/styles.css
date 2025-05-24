@@ -1,16 +1,24 @@
+:root{
+    --color-dark: #333;
+    --color-light: #eee;
+    --text-white: white;
+    --padding-default: 1rem;
+    --img-width: 200px;
+}
+
 nav {
-    background-color: #333;
-    padding: 1rem;
+    background-color:var(--color-dark);
+    padding: (var(--padding-default));
     text-align: center;
 }
 nav a {
-    color: white;
+    color: var(--text-white);
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 0 var(--padding-default);
 }
 h1 {
     font-size: 2rem;
-    color: #333;
+    color: var(--color-dark);
     text-align: center;
 }
 
@@ -21,20 +29,20 @@ main{
     max-width: 840px;
 }
 main img{
-    width: 200px;
+    width: var(--img-width);
     height: auto;
 }
 aside{
     width: 20rem;
-    margin: 1rem;
+    margin: var(--padding-default);
     border: 1px solid rgb(0,0,0,0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    padding: var(--padding-default);
+    background-color: var(--color-light);
+    color: var(--color-dark);
     text-align: center;
 }
 aside img{
-    width: 200px;
+    width: var(--img-width);
     height: auto;
 }
 footer{
