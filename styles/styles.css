@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --color-dark: #333;
     --color-light: #eee;
@@ -5,6 +11,7 @@
     --padding-default: 1rem;
     --img-width: 200px;
 }
+
 
 nav {
     background-color:var(--color-dark);
@@ -31,19 +38,22 @@ main{
 main img{
     width: var(--img-width);
     height: auto;
+    border:  1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin:  0 0 1rem 1rem ;
 }
-aside{
-    width: 20rem;
-    margin: var(--padding-default);
-    border: 1px solid rgb(0,0,0,0.2);
-    padding: var(--padding-default);
-    background-color: var(--color-light);
-    color: var(--color-dark);
-    text-align: center;
-}
+
 aside img{
     width: var(--img-width);
     height: auto;
+}
+aside h2{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+
 }
 footer{
     margin-top: 15px;
@@ -51,3 +61,23 @@ footer{
     text-align: center;
     
 }
+/*Class Selectors*/
+.box{
+    margin: 1rem;
+    border:  1px solid rgb(0 0 0 /10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    margin: var(--padding-default);
+    border: 1px solid rgb(0,0,0,0.2);
+    padding: var(--padding-default);
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    text-align: center;
+    position: relative;
+}
+
