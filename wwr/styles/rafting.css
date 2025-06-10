@@ -233,7 +233,7 @@ footer p {
 .socialmedia img {
   width: 30px;
 }
-/* ========== Contact Page Layout ========== */
+
 
 .contact-container {
   display: flex;
@@ -242,7 +242,6 @@ footer p {
   margin-top: 30px;
 }
 
-/* Columna izquierda */
 .left-column {
   flex: 1;
   display: flex;
@@ -250,12 +249,11 @@ footer p {
   gap: 30px;
 }
 
-/* Columna derecha */
+
 .right-column {
   flex: 1;
 }
 
-/* Información de contacto */
 .information h2, .team h2, .formulario h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
@@ -272,7 +270,7 @@ footer p {
   line-height: 1.5;
 }
 
-/* ========== Formulario ========== */
+
 .formulario form {
   display: flex;
   flex-direction: column;
@@ -293,7 +291,7 @@ legend {
   padding: 0 10px;
 }
 
-/* Items del formulario */
+
 .form-item {
   margin-bottom: 15px;
   display: flex;
@@ -315,13 +313,13 @@ legend {
   font-size: 1rem;
 }
 
-/* Opcional: columnas internas si quieres usar las clases column1 y column2 */
+
 .column1,
 .column2 {
   width: 100%;
 }
 
-/* Botón de envío */
+
 button[type="submit"] {
   align-self: flex-start;
   background-color: var(--secondary-color);
@@ -338,22 +336,19 @@ button[type="submit"]:hover {
   background-color: #b88d2f;
 }
 
-/* Contenedor de todos los miembros */
 .team {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Flex horizontal para los miembros */
+
 .team-members-container {
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  flex-wrap: wrap; /* Opcional si quieres que se acomoden en pantallas pequeñas */
+  flex-wrap: wrap; 
 }
-
-/* Estilo individual de cada miembro */
 .team-member {
   flex: 1;
   min-width: 200px;
@@ -371,7 +366,7 @@ button[type="submit"]:hover {
 .map-container {
     width: 100%;
     overflow: hidden;
-    padding-bottom: 56.25%; /* Proporción 16:9 */
+    padding-bottom: 56.25%;
     position: relative;
     height: 0;
 }
