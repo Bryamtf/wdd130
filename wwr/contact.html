@@ -66,16 +66,18 @@
                             </fieldset>
 
                             <fieldset>
-                                <legend>Message Details</legend>
-
+                                <legend>Purpose of Message</legend>
                                 <div class="form-item column2">
-                                    <label for="purpose">Purpose of Message</label>
-                                    <select name="purpose" id="purpose">
-                                        <option value="inquiry">General Inquiry</option>
-                                        <option value="reservation">Reservation Question</option>
-                                        <option value="feedback">Website Suggestion</option>
-                                        <option value="other">Other</option>
-                                    </select>
+                                    <label>What is the purpose of your message?</label>
+                                    <input type="radio" id="inquiry" name="purpose" value="inquiry" checked>
+                                    <label for="inquiry">General Inquiry</label>
+
+                                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                                    <label for="reservation">Reservation Question</label>
+                                   
+                                    <input type="radio" id="feedback" name="purpose" value="feedback">
+                                    <label for="feedback">Website Suggestion</label>
+                                   
                                 </div>
 
                                 <div class="form-item column2">
@@ -83,19 +85,6 @@
                                     <textarea id="message" name="message" rows="4" required></textarea>
                                 </div>
                             </fieldset>
-
-                            <fieldset class="form-item column2">
-                                <legend>Preferred Contact Method</legend>
-
-                                <input type="radio" id="contact-email" name="preferred-contact" value="email">
-                                <label for="contact-email">Email</label>
-
-                                <input type="radio" id="contact-phone" name="preferred-contact" value="phone">
-                                <label for="contact-phone">Phone</label>
-
-                                <input type="radio" id="contact-either" name="preferred-contact" value="either" checked>
-                                <label for="contact-either">Either</label>
-                        </fieldset>
 
                             <div>
                                 <input type="checkbox" id="subscribe" name="subscribe">
@@ -141,6 +130,7 @@
             <a href="https://twitter.com"><img src="images/twitter.png" alt="Visit us on Twitter"></a>
             <a href="https://instagram.com"><img src="images/instagram.png" alt="Visit us on Instagram"></a>
         </nav>
+         <p><a href="images/wireframe-contacto.png" target="_blank">View Contact Page Wireframe</a></p>
     </footer>
 </body>
 </html>
