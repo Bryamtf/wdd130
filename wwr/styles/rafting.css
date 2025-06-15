@@ -172,16 +172,16 @@ nav a:hover {
 }
 
 .adventure-gallery {
-    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(5, minmax(140px, 1fr));
   gap: 20px;
   padding: 0 20px;
+  max-width: 1200px;
+    margin: 0;
 }
 
 .adventure-gallery figure {
     flex: 1;
-    min-width: 200px;
-    max-width: 220px;
     margin: 0;
     padding: 10px;
     background-color: var(--accent1-color);
