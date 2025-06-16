@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Blue Rapids Adventures to ask questions, make reservations, or send us feedback. Reach us via phone, email, or contact form.">
-    <meta name="author" content="BRYAM TERRONES FIGUEROA">
-    <title>Contact Us - Blue Rapids Adventures</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Discover exciting rafting trips with Blue Rapids Adventures. Book your next adventure with expert guides and unforgettable experiences!" />
+    <meta name="author" content="BRYAM TERRONES FIGUEROA" />
+    <title>Home - Blue Rapids Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <img src="images/logo_rafting_site.jpeg" alt="Blue Rapids Adventures Logo">
+        <img src="images/logo_rafting_site.jpeg" alt="Blue Rapids Adventures Logo" />
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -23,15 +23,86 @@
     </header>
 
     <main>
+        <section class="hero">
+            <img src="images/rapids_adventure1.jpg" alt="Group of people rafting in wild river" class="hero-background" />
+            <div>
+                <h1>Unforgettable Adventures at Blue Rapids</h1>
+                <p>Explore our thrilling rafting trips and create memories that last forever with the best guides and the most exciting routes.</p>
+                <a href="trips.html" class="button">Explore Trips</a>
+            </div>
+        </section>
 
+        <h2>Discover Our Adventures</h2>
+
+        <section class="purpose-grid">
+            <div class="adventure-card">
+                <figure>
+                    <img src="images/rapids_adventure_1.jpg" alt="Beginner Rafting Trip" />
+                    <figcaption>Beginner Trips</figcaption>
+                    <p>Perfect for first-time rafters. Our expert guides will teach you the basics while you enjoy beautiful scenery and mild rapids.</p>
+                </figure>
+                <button class="info">More Info</button>
+            </div>
+
+            <div class="adventure-card">
+                <figure>
+                    <img src="images/rapids_extreme.jpg" alt="Extreme Rafting Adventure" />
+                    <figcaption>Extreme Adventures</figcaption>
+                    <p>For adrenaline lovers, we offer routes with level IV rapids that will test your skills. Experience the thrill of powerful waters and breathtaking drops.</p>
+                </figure>
+                <button class="info">More Info</button>
+            </div>
+
+            <div class="adventure-card">
+                <figure>
+                    <img src="images/rapids_adventure_family.jpg" alt="Family enjoying rafting trip" />
+                    <figcaption>Family Trips</figcaption>
+                    <p>Fun for all ages with routes specially designed for families. Enjoy rafting with swimming breaks, riverside picnics, and outdoor games.</p>
+                </figure>
+                <button class="info">More Info</button>
+            </div>
+
+            <div class="adventure-card">
+                <figure>
+                    <img src="images/multi_rapids_r.jpg" alt="Multi-day rafting expedition with camping" />
+                    <figcaption>Multi-Day Expeditions</figcaption>
+                    <p>Experience full immersion in nature with our multi-day expeditions. Camp under the stars and explore breathtaking rivers on an unforgettable journey.</p>
+                </figure>
+                <button class="info">More Info</button>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready for the Adventure?</h2>
+            <p>Check out all of our trips and find the one that fits your spirit. From calm beginner routes to extreme challenges for thrill-seekers.</p>
+            <a href="trips.html" class="button">View Our Trips</a>
+        </section>
+
+        <section class="newsletter">
+            <form action="#">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest updates, special offers, and rafting tips straight to your inbox.</p>
+
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" />
+
+                <label for="userEmail">Email</label>
+                <input type="email" id="userEmail" name="email" required />
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2025 | Blue Rapids Adventures | Bryam Terrones</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com"><img src="images/facebook.png" alt="Visit us on Facebook"></a>
-            <a href="https://twitter.com"><img src="images/twitter.png" alt="Visit us on Twitter"></a>
-            <a href="https://instagram.com"><img src="images/instagram.png" alt="Visit us on Instagram"></a>
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" /></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" /></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram" /></a>
         </nav>
     </footer>
 </body>
